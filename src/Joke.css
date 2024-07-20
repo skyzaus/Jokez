@@ -1,0 +1,70 @@
+/* Joke.css */
+.Joke {
+    margin-bottom: 0.75em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .Joke-votearea {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .Joke-votearea > * {
+    margin-right: 1em;
+  }
+  
+  .Joke-votearea > button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .Joke-votearea > button:hover {
+    background-color: #ccc;
+  }
+  
+  .Joke-text {
+    margin-left: 1em;
+    display: inline-block;
+    width: 500px;
+    font-size: 1.2em;
+  }
+  
+  /* JokeList.css */
+  .JokeList {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .JokeList-getmore {
+    display: block;
+    margin: 1em auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .JokeList-getmore:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.5em;
+    color: #007bff;
+  }
